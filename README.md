@@ -2,6 +2,8 @@
 
 > An end-to-end customer-support automation built with **n8n**, **Groq**, structured LLM outputs, authenticated webhooks, team routing, human-review safeguards, Data Tables, deduplication, audit logging, and centralized error handling.
 
+![Workflow architecture](assets/workflow-overview.svg)
+
 
 ## Overview
 

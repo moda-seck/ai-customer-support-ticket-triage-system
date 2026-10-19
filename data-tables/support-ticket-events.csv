@@ -1,0 +1,2 @@
+event_id,ticket_id,email,event_type,category,priority,status,source,execution_id,occurred_at,error_type,error_message
+__DELETE_AFTER_IMPORT__,__DELETE_AFTER_IMPORT__,sample@example.com,created,other,low,success,csv_import,0,2026-10-15T12:00:00.000Z,,Delete this sample row after import

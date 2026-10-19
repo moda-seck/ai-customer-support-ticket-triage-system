@@ -2,7 +2,6 @@
 
 > An end-to-end customer-support automation built with **n8n**, **Groq**, structured LLM outputs, authenticated webhooks, team routing, human-review safeguards, Data Tables, deduplication, audit logging, and centralized error handling.
 
-![Workflow overview](assets/workflow-overview.png)
 
 ## Overview
 
@@ -338,7 +337,7 @@ The public response deliberately stays generic so provider or implementation det
 
 The project uses two n8n Data Tables.
 
-### `support tickets`
+### `support_tickets`
 
 Stores the latest state of each ticket.
 
@@ -383,7 +382,7 @@ record_updated_at
 
 Deduplication is performed by `ticket_id`.
 
-### `support ticket events`
+### `support_ticket_events`
 
 Stores the audit history:
 

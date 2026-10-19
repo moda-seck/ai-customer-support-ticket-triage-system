@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+  <rect width="1600" height="720" fill="#0d1117"/>
+  <style>
+    .title{font:700 34px Arial,sans-serif;fill:#f0f6fc}
+    .sub{font:400 17px Arial,sans-serif;fill:#8b949e}
+    .box{fill:#161b22;stroke:#30363d;stroke-width:2;rx:14}
+    .accent{fill:#1f6feb}
+    .warn{fill:#9e6a03}
+    .good{fill:#238636}
+    .txt{font:600 18px Arial,sans-serif;fill:#f0f6fc}
+    .small{font:400 14px Arial,sans-serif;fill:#c9d1d9}
+    .line{stroke:#8b949e;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#8b949e"/></marker></defs>
+  <text x="60" y="60" class="title">AI Customer Support &amp; Ticket Triage System</text>
+  <text x="60" y="92" class="sub">n8n • Groq • Structured AI • Routing • Human Review • Audit Logging</text>
+
+  <rect x="60" y="150" width="210" height="100" class="box"/>
+  <rect x="60" y="150" width="210" height="8" class="accent"/>
+  <text x="85" y="190" class="txt">Webhook + Validation</text>
+  <text x="85" y="220" class="small">Header Auth • normalize • 400</text>
+
+  <rect x="340" y="150" width="210" height="100" class="box"/>
+  <rect x="340" y="150" width="210" height="8" class="accent"/>
+  <text x="365" y="190" class="txt">AI Ticket Triage</text>
+  <text x="365" y="220" class="small">Category • priority • SLA</text>
+
+  <rect x="620" y="150" width="210" height="100" class="box"/>
+  <rect x="620" y="150" width="210" height="8" class="accent"/>
+  <text x="645" y="190" class="txt">AI Reply Draft</text>
+  <text x="645" y="220" class="small">Structured response + guardrails</text>
+
+  <rect x="900" y="150" width="250" height="100" class="box"/>
+  <rect x="900" y="150" width="250" height="8" class="warn"/>
+  <text x="925" y="190" class="txt">Routing + Human Review</text>
+  <text x="925" y="220" class="small">6 queues • review gate</text>
+
+  <rect x="1220" y="150" width="250" height="100" class="box"/>
+  <rect x="1220" y="150" width="250" height="8" class="good"/>
+  <text x="1245" y="190" class="txt">Storage + Deduplication</text>
+  <text x="1245" y="220" class="small">Create/update by ticket_id</text>
+
+  <path d="M270 200 H340" class="line"/>
+  <path d="M550 200 H620" class="line"/>
+  <path d="M830 200 H900" class="line"/>
+  <path d="M1150 200 H1220" class="line"/>
+
+  <rect x="340" y="360" width="520" height="130" class="box"/>
+  <rect x="340" y="360" width="520" height="8" class="good"/>
+  <text x="370" y="402" class="txt">API Contract</text>
+  <text x="370" y="438" class="small">201 Created • 200 Updated • 400 Invalid • 403 Bad Auth • 500 Internal Error</text>
+  <text x="370" y="466" class="small">Validated end-to-end in the stable portfolio release</text>
+
+  <rect x="940" y="360" width="530" height="130" class="box"/>
+  <rect x="940" y="360" width="530" height="8" class="warn"/>
+  <text x="970" y="402" class="txt">Audit + Error Handling</text>
+  <text x="970" y="438" class="small">created • updated • rejected • internal_error</text>
+  <text x="970" y="466" class="small">Centralized failure path with safe generic HTTP 500 response</text>
+
+  <rect x="60" y="560" width="1410" height="90" class="box"/>
+  <text x="90" y="600" class="txt">Safety guardrails</text>
+  <text x="90" y="630" class="small">No password/OTP requests • no invented policies • no automatic high-risk decisions • human review for sensitive cases</text>
+</svg>
